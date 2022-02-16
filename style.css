@@ -1,0 +1,170 @@
+* {
+    font-size: 17px;
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    vertical-align:baseline;
+    list-style:none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html{
+    height: 100%;
+}
+    
+body {
+    min-height: 100%;
+    margin: 0px;
+    background-attachment: fixed;
+    background-size: 100%;
+    font-size: 15px;
+    height: 100%;
+}
+
+/* NavBar Horizontal */
+
+.navhorizontal{ 
+    display: flex;
+    background-size: 100%;
+    height: 80px;
+    border-bottom: 1px solid #918b8b;
+}
+
+.botao-like, .botao-deslike{
+    padding-left: 75px;
+    margin-top: 27px;
+}
+
+.nome {
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+
+.menu {
+    text-align: right;
+    margin-top: 20px;
+    width: 715px;
+}
+
+/* Links */
+
+a:hover {
+	color:white !important;
+	}
+
+/* Sidebar */
+
+.login-registro{
+    position: fixed;
+    width: 259px;
+    height: 100%;
+    padding-right: 58px;
+}
+
+.sidebar header{
+    line-height: 70px;
+    text-align: center;
+    background-color: #45491a;
+    user-select: none;
+}
+
+.sidebar a{
+    display: block;
+    height: 65px;
+    width: 100%;
+    line-height: 65px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #34390b;
+    border-left: 5px solid transparent;
+    transition: all .5s ease;
+}
+
+
+.sidebar a span{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.p-icone {
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    text-align: center;
+}
+
+form input{
+    border-radius: 10px;
+    border-color: #c9c4c4;
+    height: 30px;
+    margin: 5px;
+    width: 250px;
+    text-align: center;
+    font-size: 15px;
+}
+
+input[type="radio"] {
+    vertical-align: middle;
+    width: 20px;
+  }
+
+  /* Carousel */
+
+.container {
+    width: 100%;
+    height: 532px;
+    display: flex;
+    background-color: #8d8b8b;
+}
+
+.container img {
+    width: 50%;
+    padding-left: 100px;
+}
+
+.container button {
+    height: 10%;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    padding: 1em;
+    display: flex;
+}
+
+button .arrow {
+    border: solid #585555;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 10px;
+    transition: transform 0.3s ease-out;
+    outline: none;
+}
+
+#right-btn {
+    margin: auto 0 auto 180px;
+    background-color: #8d8b8b;
+}
+
+#right-btn .arrow {
+    transform: rotate(-45deg);
+}
+
+#left-btn {
+    z-index: 0;
+    margin: auto 5rem auto 0;
+    background-color: #8d8b8b;
+}
+
+#left-btn .arrow {
+    transform: rotate(135deg);
+}
+
+.carousel {
+    padding-left: 311px;
+    margin-top: 0;
+}

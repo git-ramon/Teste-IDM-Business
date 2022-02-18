@@ -12,19 +12,22 @@
 <body>
     <header class="headermain">
         <nav class="navhorizontal">
-            <p class="p-icone">Teste Desenvolvedor(a)<br>idm.business</p>
+            <div>
+                <p class="p-icone">Teste Desenvolvedor(a)</p>
+                <p class="p-subicone">idm.business</p>
+            </div> 
             <div class="botao-like botao-deslike">
-                <button>Curtir</button>
-                <button>Fechar</button>
+                <ion-icon  class="like" name="heart-circle-outline"><button>Like</button></ion-icon>
+                <ion-icon  class="deslike" name="close-circle-outline"><button>Deslike</button></ion-icon>
             </div>
             <div class="nome">
                     <p>Carine, 30</p>
                     <p>0 Interesses dela</p>
             </div>
             <div class="menu">
-                <a href="#">Login</a>
-                <a href="#">Favoritos</a>
-                <a href="#">Filtros</a>
+                <ion-icon name="person-outline"><a href="#">Login</a></ion-icon>
+                <ion-icon name="star-outline"><a href="#">Favoritos</a></ion-icon>
+                <ion-icon name="options-outline"><a href="#">Opções</a></ion-icon>
             </div>
         </nav>
     </header>
@@ -60,5 +63,6 @@
     </div>
 
     <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 </body>
 </html>

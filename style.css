@@ -64,12 +64,46 @@ body {
     padding-right: 10px;
 }
 
+.crieperfil{
+    color: #8d8b8b;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: bold;
+}
 
-/* Links */
+.exemp-local{
+    font-size: 13px;
+    color: #8d8b8b;
+}
 
-.menu icon-icon a:hover {
-	font-size: 35px;
-	}
+.btn-cadastrar{
+    padding: 10px 40px;
+    border-radius: 10px;
+    transition: all .2s;
+    background-color: rgb(102, 0, 255);
+    color: white;
+    transform: translateY(-1px);
+    cursor: pointer;
+}
+
+.btn-entrar{
+    padding: 10px 40px;
+    border-radius: 8px;
+    transition: all .2s;
+    background-color: #602fc7;;
+    color: white;
+    transform: translateY(-1px);
+    cursor: pointer;
+}
+
+.login-registro ion-icon{
+    padding: 15px 15px;
+    border-radius: 100%;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    float: right;
+}
 
 /* Sidebar */
 
@@ -118,11 +152,8 @@ body {
 }
 
 p.p-subicone {
-    /* float: left; */
     text-align: center;
-    /* margin-top: 20px; */
-    /* margin-left: 20px; */
-    font-family: Alatsi;
+    font-family: 'Alatsi';
     font-style: italic;
     font-size: 18px;
     font-weight: bold;

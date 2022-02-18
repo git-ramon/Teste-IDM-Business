@@ -3,7 +3,13 @@ const rightBtn = document.getElementById('right-btn');
 const leftBtn = document.getElementById('left-btn');
 
 // Images are from unsplash
-let pictures = ['https://images.unsplash.com/photo-1537000092872-06bbf7b64f60?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=14d2fe1244b43a1841569da918066fc4&auto=format&fit=crop&w=1050&q=80', 'https://images.unsplash.com/photo-1537005081207-04f90e3ba640?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ffb71f2a2843e802e238c5ff8e4bbb8c&auto=format&fit=crop&w=764&q=80', 'https://images.unsplash.com/photo-1536873602512-8e88cc8398b1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=60a351868d0839e686c8c5a286265f8d&auto=format&fit=crop&w=1050&q=80'];
+let pictures = 
+[
+    'https://i.postimg.cc/bvcp9gXs/jonathan-borba-6r-Onmv-EOKg-U-unsplash.jpg',
+    'https://i.postimg.cc/cCHSL535/jonathan-borba-92dr-Kkzne-P4-unsplash.jpg',
+    'https://i.postimg.cc/ncGqK9bY/234666a572046af02a9d6d8763387963.jpg',
+    'https://i.postimg.cc/8zyW98C7/bailey-burton-s-QKHf-Nl-Uw9-U-unsplash.jpg'
+];
 
 img.src = pictures[0];
 let position = 0;

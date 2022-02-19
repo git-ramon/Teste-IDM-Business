@@ -32,6 +32,17 @@ body {
 
 .like{
     color: red;
+    color: red;
+    border: solid 1px #8d8b8b;
+    margin-top: -3px;
+    border-radius: 100%;
+}
+
+.deslike {
+    color: #8d8b8b;
+    border: solid 1px #8d8b8b;
+    margin-top: -3px;
+    border-radius: 100%;
 }
 
 .botao-like, .botao-deslike{
@@ -58,10 +69,12 @@ body {
 }
 
 .menu ion-icon {
-    font-size: 30px;
+    font-size: 40px;
     margin-right: 5px;
     cursor: pointer;
-    padding-right: 10px;
+    border: solid 1px #8d8b8b;
+    border-radius: 100%;
+    color: #8d8b8b;
 }
 
 .crieperfil{
@@ -84,23 +97,25 @@ body {
     color: white;
     transform: translateY(-1px);
     cursor: pointer;
+    font-weight: bold;
 }
 
 .btn-entrar{
     padding: 10px 40px;
     border-radius: 8px;
     transition: all .2s;
-    background-color: #602fc7;;
+    background-color: #1877f2;
     color: white;
     transform: translateY(-1px);
     cursor: pointer;
+    font-weight: bold;
 }
 
 .login-registro ion-icon{
     padding: 15px 15px;
     border-radius: 100%;
-    background-color: white;
-    color: black;
+  /*  background-color: white;
+    color: black;*/
     cursor: pointer;
     float: right;
 }
@@ -113,6 +128,8 @@ body {
     height: 100%;
     padding-right: 58px;
     background-color: #f6f6f6;
+    color: black; 
+    float: left;
 }
 
 .sidebar header{
@@ -158,6 +175,12 @@ p.p-subicone {
     font-size: 18px;
     font-weight: bold;
     color: #00b300;
+}
+
+.p-nome{
+    font-size: 20px;
+    color: #8d8d8d;
+    font-weight: bold;
 }
 
 form {
@@ -235,4 +258,19 @@ button .arrow {
 .carousel {
     padding-left: 311px;
     margin-top: 0;
+}
+
+ion-icon.face {
+    padding: 0px 0px;
+    border-radius: 100%;
+    cursor: pointer;
+    padding-right: 12px;
+    /* text-align: left; */
+    margin-top: 3px;
+    float: left;
+}
+
+ion-icon.mais {
+    border: solid 1px #8d8b8b;
+    margin-top: -3px;
 }

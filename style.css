@@ -203,6 +203,18 @@ input[type="radio"] {
     width: 20px;
   }
 
+  input[type="date" i] {
+    align-items: center;
+    display: -webkit-inline-flex;
+    font-family: monospace;
+    border-color: #c9c4c4;
+    color: #8d8d8d;
+    padding-inline-start: 1px;
+    cursor: default;
+    overflow: hidden;
+    padding: 0px;
+}
+
   /* Carousel */
 
 .container {
@@ -273,4 +285,19 @@ ion-icon.face {
 ion-icon.mais {
     border: solid 1px #8d8b8b;
     margin-top: -3px;
+}
+
+.div-local {
+    position: relative;  /* cria o contexto de posicionamento do botão */ 
+  }
+
+.search {
+    width: 100%;
+}
+
+.ion-md-search {
+    position: absolute;
+    top: -4px;
+    left: 216px;
+    color: #8d8b8b;
 }

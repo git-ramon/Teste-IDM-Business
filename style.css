@@ -26,14 +26,15 @@ body {
 .navhorizontal{ 
     display: flex;
     background-size: 100%;
-    height: 80px;
-    
+    /* height: 100%; */
+    float: left;
+    /* width: 100%; */
+    padding-left: 339px;
 }
 
 .like{
-    color: red;
-    color: red;
-    border: solid 1px #8d8b8b;
+    color: #ff5e00f0;
+    border: solid 1px #ff5e00f0;
     margin-top: -3px;
     border-radius: 100%;
 }
@@ -44,16 +45,17 @@ body {
     margin-top: -3px;
     border-radius: 100%;
 }
-
+/*
 .botao-like, .botao-deslike{
     padding-left: 102px;
     margin-top: 27px;
-}
+}*/
 
 .botao-like, .botao-deslike ion-icon{
     font-size: 50px;
     cursor: pointer;
     margin-top: 8px;
+    /* padding-left: 347px;*/
 }
 
 .nome {
@@ -65,7 +67,7 @@ body {
 .menu {
     text-align: right;
     margin-top: 20px;
-    width: 715px;
+    width: 666px;
 }
 
 .menu ion-icon {
@@ -127,8 +129,8 @@ body {
     width: 259px;
     height: 100%;
     padding-right: 58px;
-    background-color: #f6f6f6;
-    color: black; 
+    background-color: white;
+    color: black;
     float: left;
 }
 
@@ -186,6 +188,7 @@ p.p-subicone {
 form {
     text-align: center;
     margin-left: 20px;
+    margin-top: -15px;
 }
 
 form input{

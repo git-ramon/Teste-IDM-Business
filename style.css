@@ -1,31 +1,31 @@
 * {
     font-size: 17px;
-    padding:0;
-    margin:0;
-    text-decoration: none;
-    vertical-align:baseline;
-    list-style:none;
+    padding: 0;
+    margin: 0;
+    /* text-decoration: none; */
+    /* vertical-align: baseline; */
+    /* list-style: none; */
     font-family: system-ui,Helvetica,Helvetica,Lucida,sans-serif;
 }
-
+/*
 html{
     height: 100%;
-}
+}*/
     
 body {
-    min-height: 100%;
-    margin: 0px;
-    background-attachment: fixed;
-    background-size: 100%;
-    font-size: 15px;
-    height: 100%;
+   /* min-height: 100%; 
+    /* margin: 0px; */
+    /* background-attachment: fixed; */
+    /* background-size: 100%; */
+    /* font-size: 15px; */
+    /* height: 100%;*/
 }
 
 /* NavBar Horizontal */
 
 .navhorizontal{ 
     display: flex;
-    background-size: 100%;
+    /* background-size: 100%; */
     /* height: 100%; */
     float: left;
     /* width: 100%; */
@@ -35,14 +35,14 @@ body {
 .like{
     color: #ff5e00f0;
     border: solid 1px #ff5e00f0;
-    margin-top: -3px;
+    /* margin-top: -3px; */
     border-radius: 100%;
 }
 
 .deslike {
     color: #8d8b8b;
     border: solid 1px #8d8b8b;
-    margin-top: -3px;
+    /* margin-top: -3px; */
     border-radius: 100%;
 }
 /*
@@ -59,9 +59,9 @@ body {
 }
 
 .nome {
-    text-align: left;
-    margin-top: 20px;
-    padding-left: 15px;
+        /* text-align: left; */
+        margin-top: 20px;
+        padding-left: 15px;
 }
 
 .menu {
@@ -303,4 +303,47 @@ ion-icon.mais {
     top: -4px;
     left: 216px;
     color: #8d8b8b;
+}
+
+
+/* Responsividade */
+
+@media screen and (min-width: 200px) and (max-width: 740px){
+    * {
+        font-size: 17px;
+        padding: 0;
+        margin: 0;
+        /* text-decoration: none; */
+        /* vertical-align: baseline; */
+        /* list-style: none; */
+        font-family: system-ui,Helvetica,Helvetica,Lucida,sans-serif;
+    }
+
+    .navhorizontal {
+        padding-left: 0px;
+    }
+    
+    .nome {
+        /* text-align: left; */
+        margin-top: 5px;
+        padding-left: 15px;
+    }
+
+    .menu {
+        text-align: center;
+        margin-top: 3px;
+        width: 210px;
+    }
+
+    .botao-like, .botao-deslike ion-icon {
+        font-size: 40px;
+        cursor: pointer;
+        margin-top: 3px;
+        margin-left: 3px;
+        /* padding-left: 12px; */
+    }
+
+    .login-registro {
+        position: relative;
+    }
 }

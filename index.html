@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,24 +10,34 @@
     <title>Teste IDM Business</title>
 </head>
 <body>
+     <!-- Menu de Navegação -->
     <header class="headermain">
         <nav class="navhorizontal">
-            <div class="botao-like botao-deslike">
-                <ion-icon class="like" name="heart"><button>Like</button></ion-icon>
-                <ion-icon class="deslike" name="close"><button>Deslike</button></ion-icon>
+
+            <!-- Botão Curtiu -->
+            <div class="botao-like">
+                <ion-icon class="like" name="heart"><button>#</button></ion-icon>
             </div>
+            <!-- Botão não Curtiu -->
+            <div class="botao-deslike">
+                <ion-icon class="deslike" name="close"><button>#</button></ion-icon>
+            </div>
+            <!-- Usuario Logado e Idade -->
             <div class="nome">
                     <p class="p-nome">Carine, 30</p>
                     <p>0 Interesses dela</p>
             </div>
+
+            <!-- Menu -->
             <div class="menu">
-                <ion-icon name="person-outline"><a href="#">Login</a></ion-icon>
-                <ion-icon name="star-outline"><a href="#">Favoritos</a></ion-icon>
-                <ion-icon name="options-outline"><a href="#">Opções</a></ion-icon>
+                <ion-icon name="person-outline"><a href="#"></a></ion-icon> <!-- Perfil -->
+                <ion-icon name="star-outline"><a href="#"></a></ion-icon> <!-- Favoritos -->
+                <ion-icon name="options-outline"><a href="#"></a></ion-icon> <!-- Opções -->
             </div>
         </nav>
     </header>
 
+    <!-- Formulario de Entrar ou Registrar -->
     <div class="login-registro"><br>
         <form action="">
             <div>
@@ -61,17 +71,21 @@
         </form>
     </div>
     
+    <!-- carousel -->
     <div class="carousel">
         <main>
             <div class="container">
-                <button id="left-btn"><i class="arrow"></i></button>
-                <img id="carousel" src="" alt="">
-                <button id="right-btn"><i class="arrow"></i></button>
+                <button id="btn-esquerda"><i class="arrow"></i></button>
+                        <img id="carousel" src="" alt="">
+                <button id="btn-direita"><i class="arrow"></i></button>
             </div>
         </main>
     </div>
 
+    <!-- linkagem do carousel -->
     <script src="script.js"></script>
+
+    <!-- linkagem dos icones -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 </body>
 </html>

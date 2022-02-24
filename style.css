@@ -361,3 +361,43 @@ button .arrow {
         float: revert;
     }
 }
+
+@media  (min-width: 280px) and (max-width: 990px) {
+    .navhorizontal {
+        width: 833px;
+    }
+    .botao-like, .botao-deslike ion-icon {
+        padding-left: 1%;
+        font-size: 40px;
+    }
+
+    .like {
+        font-size: 40px;
+    }
+
+    .nome {
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu {
+        margin-top: 5px;
+        float: left;
+        display: flex;
+    }
+
+    #btn-esquerda {
+        margin: auto -5rem auto 49px;
+        z-index: 2;
+        background: transparent;
+    }
+
+    #btn-direita {
+        margin: auto 0 auto -59px;
+        background-color: transparent;
+    }
+
+    .container{
+        width: 0px;
+    }
+}

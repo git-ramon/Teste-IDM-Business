@@ -2,21 +2,22 @@
     font-size: 17px;
     padding: 0;
     margin: 0;
-    font-family: system-ui,Helvetica,Helvetica,Lucida,sans-serif;
+    font-family: system-ui, Helvetica, Helvetica, Lucida, sans-serif;
 }
-    
-body, html {
+
+body,
+html {
     width: 100%
 }
 
 /* Menu de Navegação */
-.navhorizontal{ 
+.navhorizontal {
     display: flex;
     float: right;
     width: 80%;
 }
 
-.like{
+.like {
     color: #ff5e00f0;
     border: solid 1px #ff5e00f0;
     border-radius: 100%;
@@ -29,7 +30,8 @@ body, html {
     border-radius: 100%;
 }
 
-.botao-like, .botao-deslike ion-icon{
+.botao-like,
+.botao-deslike ion-icon {
     font-size: 50px;
     cursor: pointer;
     margin-top: 8px;
@@ -56,7 +58,7 @@ body, html {
     color: #8d8b8b;
 }
 
-.p-nome{
+.p-nome {
     font-size: 20px;
     color: #8d8d8d;
     font-weight: bold;
@@ -65,19 +67,19 @@ body, html {
 
 /* Formulario */
 
-.crieperfil{
+.crieperfil {
     color: #8d8b8b;
     font-style: italic;
     font-size: 18px;
     font-weight: bold;
 }
 
-.exemp-local{
+.exemp-local {
     font-size: 13px;
     color: #8d8b8b;
 }
 
-.btn-cadastrar{
+.btn-cadastrar {
     padding: 10px 40px;
     border-radius: 10px;
     transition: all .2s;
@@ -88,7 +90,7 @@ body, html {
     font-weight: bold;
 }
 
-.btn-entrar{
+.btn-entrar {
     padding: 10px 40px;
     border-radius: 8px;
     transition: all .2s;
@@ -99,14 +101,14 @@ body, html {
     font-weight: bold;
 }
 
-.login-registro ion-icon{
+.login-registro ion-icon {
     padding: 15px 15px;
     border-radius: 100%;
     cursor: pointer;
     float: right;
 }
 
-.login-registro{
+.login-registro {
     position: fixed;
     width: 259px;
     height: 100%;
@@ -143,7 +145,7 @@ form {
     margin-top: -15px;
 }
 
-form input{
+form input {
     border-radius: 10px;
     border-color: #c9c4c4;
     height: 30px;
@@ -156,9 +158,9 @@ form input{
 input[type="radio"] {
     vertical-align: middle;
     width: 20px;
-  }
+}
 
-  input[type="date" i] {
+input[type="date"i] {
     align-items: center;
     display: -webkit-inline-flex;
     font-family: monospace;
@@ -185,8 +187,8 @@ ion-icon.mais {
 }
 
 .div-local {
-    position: relative; 
-  }
+    position: relative;
+}
 
 .search {
     width: 100%;
@@ -199,7 +201,7 @@ ion-icon.mais {
     color: #8d8b8b;
 }
 
-  /* Carousel */
+/* Carousel */
 
 .container {
     width: 100%;
@@ -212,7 +214,7 @@ ion-icon.mais {
 
 .container img {
     width: 500px;
-   /* height: 900px;*/
+    /* height: 900px;*/
     padding-left: 9%;
     text-align: center;
 }
@@ -278,15 +280,15 @@ button .arrow {
     }
 }
 
-@media (max-width: 1465px){
+@media (max-width: 1465px) {
     .container img {
-      /*  height: 80%;*/
+        /*  height: 80%;*/
         padding-left: 0%;
     }
 
     #btn-direita {
         margin: auto 5rem auto 10%;
-    }    
+    }
 
     #btn-esquerda {
         margin: auto 11rem auto 29%;
@@ -297,28 +299,32 @@ button .arrow {
     }
 }
 
-@media (max-width: 1330px){
+@media (max-width: 1330px) {
     #btn-esquerda {
         margin: auto 5rem auto 29%;
-    }    
+    }
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1200px) {
     #btn-esquerda {
         margin: auto 5rem auto 28%;
     }
+
     #btn-direita {
         margin: auto 0 auto 5%;
     }
 }
 
-@media (max-width: 1060px){
+@media (max-width: 1060px) {
     .nome {
         text-align: center;
     }
-    .botao-like, .botao-deslike ion-icon {
+
+    .botao-like,
+    .botao-deslike ion-icon {
         padding-left: 15%;
     }
+
     .container img {
         padding-left: 2%;
     }
@@ -326,23 +332,26 @@ button .arrow {
     #btn-direita {
         margin: auto 0 auto 1%;
     }
+
     #btn-esquerda {
         margin: auto 3rem auto 29%;
     }
 }
 
 
-@media (max-width: 1000px){
+@media (max-width: 1000px) {
     .navhorizontal {
         float: revert;
     }
 }
 
-@media  (min-width: 280px) and (max-width: 480px) {
+@media (min-width: 280px) and (max-width: 480px) {
     .navhorizontal {
         width: 833px;
     }
-    .botao-like, .botao-deslike ion-icon {
+
+    .botao-like,
+    .botao-deslike ion-icon {
         padding-left: 1%;
         font-size: 40px;
     }
@@ -373,7 +382,7 @@ button .arrow {
         background-color: transparent;
     }
 
-    .container{
+    .container {
         width: 0px;
     }
 }

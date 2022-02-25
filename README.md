@@ -7,7 +7,7 @@
 
 ## Pré-requisitos
 
-• Relosuçao de Tela Ideal: 1280x720
+• Resolução de Tela Ideal: 1280x720
 
 ## Instalação
 
